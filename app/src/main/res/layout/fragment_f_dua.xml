@@ -4,8 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".fSatu"
-    android:background="#9BC09C"
+    tools:context=".fDua"
+    android:background="#FEE2AD"
     android:padding="16dp">
 
 <!--    <TextView-->
@@ -17,15 +17,25 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/tvJudul"
-        android:text="FRAGMENT SATU"
+        android:text="FRAGMENT DUA"
         android:textColor="@color/black"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvHasil"
+        android:textColor="@color/black"
+        android:text="Data dari Fragmen 1"
         android:gravity="center"
         android:textStyle="bold"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnOpenFSatu"
-        android:text="OPEN FRAGMENT DUA" />
+        android:id="@+id/btnOpenFDua"
+        android:text="OPEN FRAGMENT 1" />
+
 
 </LinearLayout>
